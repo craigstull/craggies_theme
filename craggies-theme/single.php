@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying all single posts
+ * The template for displaying all single posts.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package Craggies_Theme
+ * @package Popperscores
  */
 
 get_header(); ?>
@@ -34,11 +34,10 @@ get_header(); ?>
 			) );
 			?>
 
-<?php endwhile; // End of the loop. ?>
+		<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php
-get_sidebar();
-get_footer();
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
