@@ -1,23 +1,23 @@
 /*
-Theme Name: Craggies Theme
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
+Theme Name: Popperscores
+Theme URI: http://lynda.com/
+Author: Morten Rand-Hendriksen
+Author URI: http://lynda.com/mor10
+Description: A new awesome theme to showcase awesome content.
+Version: 0.0.1
 License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: craggies-theme
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: popperscores
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Craggies Theme is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Popperscores is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
 /*--------------------------------------------------------------
@@ -690,7 +690,7 @@ a:active {
 	left: 1em;
 	font-size: 1em;
 	text-transform: uppercase;
-	background-color: #406060;
+	background-color: #000;
 	color: #fff;
 	border: solid 2px #fff;
 	transition: all ease-out 400ms;
@@ -1849,7 +1849,14 @@ a:active {
 	}
 }
 
-
+.entry-footer::before,
+.entry-footer::after {
+	display: block;
+	content: "";
+	width: 7em;
+	border-bottom: 1px solid #c3c3c3;
+	margin: 2em auto;
+}
 
 .entry-footer::before {
 	width: 3.5em;
@@ -2424,8 +2431,3 @@ img.alignleft {
 .site-footer a {
 	color: #fff;
 }
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
-
